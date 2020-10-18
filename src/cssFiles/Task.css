@@ -1,3 +1,50 @@
 .task__list{
     text-align: center;
+    border-bottom: 1px solid lightgray;
 }
+
+.task__list > .MuiListItem-root{
+    justify-content: center;
+}
+
+.task__list__edit{
+    cursor: pointer;
+    /* margin-left: 30px; */
+}
+
+.task__list__delete{
+    cursor: pointer;
+    /* margin-left: 15px; */
+}
+
+.listItem_text{
+    width: fit-content;
+    line-break: anywhere;
+}
+
+
+
+.EditModal{
+    height: 100%;
+    width:100%;
+    place-content: center;
+    display: inline-flex;
+    align-items: center;
+}
+
+.bodyEdit{
+    height: auto;
+    width: 35% !important;
+    border: none !important;
+    border-radius: 4px;
+}
+
+
+.inputEdit{
+    font-size: 20px!important;
+}
+
+.formControlEdit{
+    width: 100%;
+}
+
